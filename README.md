@@ -52,40 +52,72 @@ Google Form → Google Sheets → n8n → Email → Power BI
 
 ## 📁 Project Structure
 
-```
-Finance_automation/
+```bash
+Finance_project/
 │
 ├── screenshots/
-│   ├── form_view.png
-│   ├── sheet_data.png
-│   ├── workflow_diagram.png
+│   ├── google_form.png.png
+│   ├── google_sheet.png.png
+│   ├── n8n_architecture.png.png
+│   ├── email_output.png.png
+│   └── powerbi_dashboard.png.png
 │
-├── email_notification.png
 ├── expense_automation_workflow.json
 ├── expense_tracker_presentation.pptx
+└── README.md
 ```
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### 1️⃣ Google Form Interface
+## 1️⃣ Google Form Interface
+
+```md
+C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_form.png.png
+```
+
 ![Google Form](screenshots/google_form.png.png)
 
 ---
 
-### 2️⃣ Google Sheet Data Capture
+## 2️⃣ Google Sheet Data Capture
+
+```md
+C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_sheet.png.png
+```
+
 ![Google Sheet](screenshots/google_sheet.png.png)
 
 ---
 
-### 3️⃣ n8n Workflow Architecture
+## 3️⃣ n8n Workflow Architecture
+
+```md
+C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\n8n_architecture.png.png
+```
+
 ![n8n Workflow](screenshots/n8n_architecture.png.png)
 
 ---
 
-### 4️⃣ Email Notification Output
+## 4️⃣ Email Notification Output
+
+```md
+C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\email_output.png.png
+```
+
 ![Email Notification](screenshots/email_output.png.png)
+
+---
+
+## 5️⃣ Power BI Dashboard
+
+```md
+C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\powerbi_dashboard.png.png
+```
+
+![Power BI Dashboard](screenshots/powerbi_dashboard.png.png)
 
 ---
 
@@ -95,26 +127,31 @@ Finance_automation/
 * Real-time workflow
 * Email alerts
 * Dashboard insights
+* Centralized expense monitoring
 
 ---
 
 ## 📊 Business Impact
 
 * Reduced manual work
-* Faster processing
-* Better financial decisions
+* Faster expense processing
+* Improved accuracy
+* Better financial visibility
+* Enhanced decision-making
 
 ---
 
 ## 🚀 Future Scope
 
-* Approval system
+* Approval workflow system
 * AI fraud detection
-* Budget alerts
+* Budget threshold alerts
+* Mobile integration
+* Cloud database integration
 
 ---
 
 ## 👩‍💼 Author
 
-**AARCHIE**
-MBA Finance | AI in Finance
+**AARCHIE GUPTA**
+MBA Finance | AI in Finance | Automation Enthusiast
