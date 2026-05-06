@@ -8,7 +8,7 @@ The solution eliminates manual work, reduces processing time, and provides insta
 
 ---
 
-## 🚨 Business Problem
+# 🚨 Business Problem
 
 Traditional expense management systems rely heavily on:
 
@@ -17,7 +17,7 @@ Traditional expense management systems rely heavily on:
 - Spreadsheet tracking
 - Delayed reporting
 
-### ❌ Challenges
+## ❌ Challenges
 
 - High chances of errors
 - Slow reimbursement process
@@ -26,19 +26,19 @@ Traditional expense management systems rely heavily on:
 
 ---
 
-## ✅ Solution
+# ✅ Solution
 
 This system automates the complete workflow:
 
-1. Employee submits expense via Google Form  
-2. Data is stored in Google Sheets  
-3. n8n automatically triggers workflow  
-4. Email notification sent to finance team  
-5. Data visualized in Power BI Dashboard  
+1. Employee submits expense via Google Form
+2. Data is stored in Google Sheets
+3. n8n automatically triggers workflow
+4. Email notification sent to finance team
+5. Data visualized in Power BI Dashboard
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 - Google Forms (Data Input)
 - Google Sheets (Data Storage)
@@ -48,7 +48,7 @@ This system automates the complete workflow:
 
 ---
 
-## 🔄 Workflow Architecture
+# 🔄 Workflow Architecture
 
 ```text
 Google Form → Google Sheets → n8n Workflow → Email Notification → Power BI Dashboard
@@ -56,16 +56,10 @@ Google Form → Google Sheets → n8n Workflow → Email Notification → Power 
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
-Finance-Automation-Project/
-│
-├── n8n_workflow/
-│   └── expense_automation_workflow.json
-│
-├── ppt/
-│   └── expense_tracker_presentation.pptx
+Finance_project/
 │
 ├── screenshots/
 │   ├── google_form.png.png
@@ -73,6 +67,12 @@ Finance-Automation-Project/
 │   ├── n8n_architecture.png.png
 │   ├── email_output.png.png
 │   └── powerbi_dashboard.png.png
+│
+├── n8n_workflow/
+│   └── expense_automation_workflow.json
+│
+├── ppt/
+│   └── expense_tracker_presentation.pptx
 │
 └── README.md
 ```
@@ -83,46 +83,45 @@ Finance-Automation-Project/
 
 ## 1️⃣ Google Form Interface
 
-![Google Form](./screenshots/google_form.png.png)
+![Google Form](C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/google_form.png.png)
 
 ---
 
 ## 2️⃣ Google Sheet Data Capture
 
-![Google Sheet](./screenshots/google_sheet.png.png)
+![Google Sheet](C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/google_sheet.png.png)
 
 ---
 
 ## 3️⃣ n8n Workflow Architecture
 
-![n8n Workflow](./screenshots/n8n_architecture.png.png)
+![n8n Workflow](C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/n8n_architecture.png.png)
 
 ---
 
 ## 4️⃣ Email Notification Output
 
-![Email Notification](./screenshots/email_output.png.png)
+![Email Notification](C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/email_output.png.png)
 
 ---
 
 ## 5️⃣ Power BI Dashboard
 
-![Power BI Dashboard](./screenshots/powerbi_dashboard.png.png)
+![Power BI Dashboard](C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/powerbi_dashboard.png.png)
 
 ---
 
-## ⭐ Key Features
+# ⭐ Key Features
 
 - Automated expense data capture
 - Real-time workflow execution
 - Instant email notifications
 - Centralized expense tracking
 - Dashboard-based insights
-- Improved financial monitoring
 
 ---
 
-## 📊 Business Impact
+# 📊 Business Impact
 
 - Reduced manual effort and errors
 - Faster expense processing
@@ -132,80 +131,42 @@ Finance-Automation-Project/
 
 ---
 
-## 🌍 Real-World Applications
-
-This solution can be used in:
+# 🌍 Real-World Applications
 
 - Corporate finance departments
 - Startups automating operations
 - Consulting firms
 - Shared service centers
-- SMEs managing operational expenses
 
 ---
 
-## ⚙️ How to Run the Project
+# ⚙️ How to Run the Project
 
-### Step 1: Create Google Form
-Create a form for employee expense submissions.
-
-### Step 2: Connect Google Sheets
-Link form responses to Google Sheets for centralized storage.
-
-### Step 3: Build n8n Workflow
-Create workflow automation using:
-- Google Sheets Trigger
-- Gmail Node
-- Data Processing Nodes
-
-### Step 4: Configure Email Notifications
-Send automatic alerts to the finance team whenever a new expense is submitted.
-
-### Step 5: Connect Power BI
-Import Google Sheets data into Power BI to build dashboards and reports.
+1. Create a Google Form for expense submission
+2. Link responses to Google Sheets
+3. Build n8n workflow using Google Sheets trigger
+4. Configure Gmail node for notifications
+5. Connect dataset to Power BI for dashboard
 
 ---
 
-## 📈 Dashboard Insights
-
-The Power BI dashboard provides:
-
-- Department-wise expenses
-- Monthly spending trends
-- Expense category analysis
-- Real-time financial monitoring
-- Budget tracking insights
-
----
-
-## 🚀 Future Enhancements
+# 🚀 Future Enhancements
 
 - Approval workflow integration
 - AI-based fraud detection
 - Budget alerts & notifications
 - Role-based dashboards
-- ERP integration
-- Predictive expense analytics
+- ERP system integration
 
 ---
 
-## 🏁 Conclusion
+# 🏁 Conclusion
 
-This project demonstrates how automation and AI-driven workflows can modernize traditional finance systems into smart, efficient, and real-time decision-making platforms.
-
-By integrating no-code tools and analytics platforms, organizations can significantly improve operational efficiency, transparency, and financial control.
+This project shows how automation and AI-driven workflows can transform traditional finance systems into smart, real-time decision-making platforms.
 
 ---
 
-## 👩‍💼 Author
+# 👩‍💼 Author
 
-### **Deeksha Bawa**
+**Aarchie Gupta**  
 MBA Finance Student | AI in Finance Practitioner
-
----
-
-## 📬 Contact
-
-For collaboration or project discussion, feel free to connect.
-
-⭐ If you found this project useful, consider giving it a star on GitHub.
