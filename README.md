@@ -83,7 +83,9 @@ ai-finance-expense-automation-system/
 
 ## 2️⃣ Google Sheet Data Capture
 
-![Google Sheet](google_sheet.png.png)
+![Google Sheet](google_sheet.png)
+
+
 
 ---
 
