@@ -69,27 +69,23 @@ Finance_automation/
 
 ## 📸 Screenshots
 
-### 1. Google Form Interface
-
-![Google Form](screenshots/form_view.png)
-
----
-
-### 2. Google Sheet Data
-
-![Google Sheet](screenshots/sheet_data.png)
+### 1️⃣ Google Form Interface
+![Google Form](screenshots/google_form.png.png)
 
 ---
 
-### 3. Workflow Diagram
-
-![Workflow](screenshots/workflow_diagram.png)
+### 2️⃣ Google Sheet Data Capture
+![Google Sheet](screenshots/google_sheet.png.png)
 
 ---
 
-### 4. Email Notification
+### 3️⃣ n8n Workflow Architecture
+![n8n Workflow](screenshots/n8n_architecture.png.png)
 
-![Email](email_notification.png)
+---
+
+### 4️⃣ Email Notification Output
+![Email Notification](screenshots/email_output.png.png)
 
 ---
 
