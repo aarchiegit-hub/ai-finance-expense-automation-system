@@ -1,0 +1,142 @@
+{
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "14Je47vLkpAGif8ki6f4QrJ3EH63jBGOPBIzxwXH25Bk",
+          "mode": "list",
+          "cachedResultName": "EXPENSE TRACKER DATA",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/14Je47vLkpAGif8ki6f4QrJ3EH63jBGOPBIzxwXH25Bk/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1147479023,
+          "mode": "list",
+          "cachedResultName": "Form Responses 1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/14Je47vLkpAGif8ki6f4QrJ3EH63jBGOPBIzxwXH25Bk/edit#gid=1147479023"
+        },
+        "event": "rowAdded",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "41018401-18d0-407f-854c-097bf62f4c2a",
+      "name": "Google Sheets Trigger",
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "ewt6i6XKN4aEea8G",
+          "name": "Google Sheets Trigger OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "58d65c14-6a0f-4ab1-9fe9-7f1a2b4cee8b",
+              "name": "",
+              "value": "= {{$json.Name}}",
+              "type": "string"
+            },
+            {
+              "id": "5f6c4b2b-240e-4b9f-bcf3-6f2297d600e2",
+              "name": "DEPARTMENT",
+              "value": "={{$json.Department}}",
+              "type": "string"
+            },
+            {
+              "id": "fb950a4f-b3c8-43e7-820a-3efb0ea861d6",
+              "name": "EXPENSE DATE",
+              "value": "={{$json.Date}}",
+              "type": "string"
+            },
+            {
+              "id": "3ef80fb5-6eca-4709-8fdc-6dcf457dcd5d",
+              "name": "CATEGORY",
+              "value": "= {{$json.Category}}",
+              "type": "string"
+            },
+            {
+              "id": "992af09a-70de-4b90-85a0-dcab7ac2aa5c",
+              "name": "REMARKS",
+              "value": "={{$json[\"REMARKS\"]}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "0dbe2b99-ff02-4703-969c-8b478b9ac13a",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "sendTo": "aarchiegupta27@gmail.com",
+        "subject": "New Expense Submitted",
+        "emailType": "text",
+        "message": "=A new expense has been submitted.\n\nEmployee: {{$json.Name}}\nDepartment: {{$json.Department}}\nAmount: ₹{{$json.Amount}}\nCategory: {{$json.Category}}\nDate: {{$json.Date}}\nPayment Mode: {{$json[\"Payment Mode\"]}}\n\nRegards,\nExpense Automation System\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        416,
+        0
+      ],
+      "id": "e43f7c9f-8426-4a74-a731-5231222302ab",
+      "name": "Send a message",
+      "webhookId": "d010d132-b118-48d7-9bc5-bc4f783f06d3",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "HpxV9cV5Z2e6qCne",
+          "name": "Gmail OAuth2 API"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Sheets Trigger": {
+      "main": [
+        []
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "6debb579-bd28-459c-ba73-afcb63b23fb0",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "14b3c188ab1efeda8febe09c2cb367d676b174140451b5e6c5a601cad9e46315"
+  },
+  "id": "fP2nJjuMJk49V0FU",
+  "tags": []
+}
