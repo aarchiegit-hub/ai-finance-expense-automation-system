@@ -77,9 +77,7 @@ Finance_project/
 C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_form.png.png
 ```
 
-![Google Form](screenshots/google_form.png.png)
 
----
 
 ## 2️⃣ Google Sheet Data Capture
 
@@ -87,7 +85,7 @@ C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_for
 C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_sheet.png.png
 ```
 
-![Google Sheet](screenshots/google_sheet.png.png)
+
 
 ---
 
@@ -97,7 +95,7 @@ C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_she
 C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\n8n_architecture.png.png
 ```
 
-![n8n Workflow](screenshots/n8n_architecture.png.png)
+
 
 ---
 
@@ -107,7 +105,7 @@ C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\n8n_archit
 C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\email_output.png.png
 ```
 
-![Email Notification](screenshots/email_output.png.png)
+
 
 ---
 
