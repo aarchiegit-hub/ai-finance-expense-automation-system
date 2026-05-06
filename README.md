@@ -1,85 +1,54 @@
-# AI Finance Expense Automation System
+# 💰 AI Finance Expense Automation System
 
-## Project Overview
-This project presents an end-to-end automated expense management system using Google Forms, Google Sheets, n8n, Gmail, and Power BI.
+## 📌 Project Overview
 
-It enables real-time expense tracking, automation, and financial insights.
+This project demonstrates an end-to-end automated expense management system built using no-code tools and analytics platforms. It integrates Google Forms, Google Sheets, n8n workflow automation, and Power BI to create a real-time financial tracking system.
 
----
-
-## Business Problem
-Traditional systems rely on manual entry, emails, and spreadsheets, leading to delays, errors, and lack of visibility.
+The solution eliminates manual work, reduces processing time, and provides instant visibility into expenses for better decision-making.
 
 ---
 
-## Solution
-1. Submit expense via Google Form  
-2. Data stored in Google Sheets  
-3. n8n triggers workflow  
-4. Email notification sent  
-5. Power BI dashboard updates  
+## 🚨 Business Problem
+
+Traditional expense management systems rely heavily on:
+
+- Manual data entry
+- Email approvals
+- Spreadsheet tracking
+- Delayed reporting
+
+### ❌ Challenges
+
+- High chances of errors
+- Slow reimbursement process
+- No real-time insights
+- Inefficient financial control
 
 ---
 
-## System Architecture
+## ✅ Solution
+
+This system automates the complete workflow:
+
+1. Employee submits expense via Google Form
+2. Data is stored in Google Sheets
+3. n8n automatically triggers workflow
+4. Email notification sent to finance team
+5. Data visualized in Power BI Dashboard
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Google Forms (Data Input)
+- Google Sheets (Data Storage)
+- n8n (Workflow Automation)
+- Gmail (Email Notifications)
+- Microsoft Power BI (Dashboard & Analytics)
+
+---
+
+## 🔄 Workflow Architecture
+
+```text
 Google Form → Google Sheets → n8n Workflow → Email Notification → Power BI Dashboard
-
----
-
-## Tools Used
-- Google Forms  
-- Google Sheets  
-- n8n  
-- Gmail  
-- Power BI  
-
----
-
-## Project Structure
-Finance-Automation-Project/
-│
-├── n8n_workflow/
-│   └── expense_automation_workflow.json
-│
-├── ppt/
-│   └── expense_tracker_presentation.pptx
-│
-├── screenshots/
-│   ├── google_form.png
-│   ├── google_sheet.png
-│   ├── n8n_architecture.png
-│   ├── email_output.png
-│   └── powerbi_dashboard.png
-
----
-
-## Screenshots
-
-### Google Form
-![Google Form](screenshots/google_form.png)
-
-### Google Sheet
-![Google Sheet](screenshots/google_sheet.png)
-
-### n8n Workflow
-![n8n](screenshots/n8n_architecture.png)
-
-### Email Output
-![Email](screenshots/email_output.png)
-
-### Power BI Dashboard
-![Power BI](screenshots/powerbi_dashboard.png)
-
----
-
-## Business Impact
-- Faster processing  
-- Reduced manual work  
-- Real-time insights  
-- Better financial control  
-
----
-
-## Aarchie Gupta
-MBA Finance | AI in Finance
-
