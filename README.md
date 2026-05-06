@@ -2,66 +2,68 @@
 
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end automated expense management system using no-code tools and analytics platforms. It integrates Google Forms, Google Sheets, n8n, Gmail, and Power BI to create a real-time financial tracking system.
+This project demonstrates an end-to-end **automated expense management system** built using no-code tools and analytics platforms. It integrates Google Forms, Google Sheets, n8n workflow automation, Gmail notifications, and Power BI to create a **real-time financial tracking system**.
+
+The solution eliminates manual work, reduces processing time, and provides instant visibility into expenses for better decision-making.
 
 ---
 
-# 🚨 Business Problem
+## 🚨 Business Problem
 
 Traditional expense management systems rely heavily on:
 
 - Manual data entry
-- Spreadsheet tracking
 - Email approvals
+- Spreadsheet tracking
 - Delayed reporting
 
-## ❌ Challenges Faced
+### ❌ Challenges:
 
-- Human errors in entries
-- Slow processing time
-- Lack of centralized monitoring
-- No real-time financial insights
-- Difficult expense tracking
-
----
-
-# ✅ Proposed Solution
-
-This project automates the entire expense workflow.
-
-## 🔄 Workflow Process
-
-1. Employee submits expense using Google Form
-2. Data automatically stored in Google Sheets
-3. n8n detects new entry
-4. Automated email notification triggered
-5. Power BI dashboard updates in real-time
+- High chances of errors
+- Slow reimbursement process
+- No real-time insights
+- Inefficient financial control
 
 ---
 
-# 🛠️ Technologies Used
+## ✅ Solution
 
-| Tool | Purpose |
-|------|----------|
-| Google Forms | Expense Data Collection |
-| Google Sheets | Database Storage |
-| n8n | Workflow Automation |
-| Gmail | Email Notifications |
-| Power BI | Dashboard Visualization |
+This system automates the complete workflow:
 
----
-
-# 🔄 System Architecture
-
-Google Form → Google Sheets → n8n Automation → Email Notification → Power BI Dashboard
+1. Employee submits expense via **Google Form**
+2. Data is stored in **Google Sheets**
+3. **n8n** automatically triggers workflow
+4. Email notification sent to finance team
+5. Data visualized in **Power BI Dashboard**
 
 ---
 
-# 📁 Project Structure
+## 🛠️ Tools & Technologies
 
-```bash
+- Google Forms (Data Input)
+- Google Sheets (Data Storage)
+- n8n (Workflow Automation)
+- Gmail (Email Notifications)
+- Microsoft Power BI (Dashboard & Analytics)
+
+---
+
+## 🔄 Workflow Architecture
+
+```text
+Google Form → Google Sheets → n8n Workflow → Email Notification → Power BI Dashboard
+```
+
+---
+
+## 📁 Project Structure
+
+```text
 Finance_project/
 │
+├── case study/
+├── n8n_workflow/
+├── ppt/
 ├── screenshots/
 │   ├── google_form.png.png
 │   ├── google_sheet.png.png
@@ -69,8 +71,7 @@ Finance_project/
 │   ├── email_output.png.png
 │   └── powerbi_dashboard.png.png
 │
-├── expense_automation_workflow.json
-├── expense_tracker_presentation.pptx
+├── .gitignore
 └── README.md
 ```
 
@@ -80,103 +81,96 @@ Finance_project/
 
 ## 1️⃣ Google Form Interface
 
-![Google Form](file:///C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/google_form.png.png)
-
-### Actual File Path
-
-```text
-C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_form.png.png
-```
+![Google Form](./screenshots/google_form.png.png)
 
 ---
 
 ## 2️⃣ Google Sheet Data Capture
 
-![Google Sheet](file:///C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/google_sheet.png.png)
-
-### Actual File Path
-
-```text
-C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\google_sheet.png.png
-```
+![Google Sheet](./screenshots/google_sheet.png.png)
 
 ---
 
 ## 3️⃣ n8n Workflow Architecture
 
-![n8n Workflow](file:///C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/n8n_architecture.png.png)
-
-### Actual File Path
-
-```text
-C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\n8n_architecture.png.png
-```
+![n8n Workflow](./screenshots/n8n_architecture.png.png)
 
 ---
 
 ## 4️⃣ Email Notification Output
 
-![Email Notification](file:///C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/email_output.png.png)
-
-### Actual File Path
-
-```text
-C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\email_output.png.png
-```
+![Email Notification](./screenshots/email_output.png.png)
 
 ---
 
 ## 5️⃣ Power BI Dashboard
 
-![Power BI Dashboard](file:///C:/Users/aarch/OneDrive/Documents/Desktop/Finance_project/screenshots/powerbi_dashboard.png.png)
-
-### Actual File Path
-
-```text
-C:\Users\aarch\OneDrive\Documents\Desktop\Finance_project\screenshots\powerbi_dashboard.png.png
-```
+![Power BI Dashboard](./screenshots/powerbi_dashboard.png.png)
 
 ---
 
-# ⭐ Key Features
+## ⭐ Key Features
 
-- Automated expense tracking
+- Automated expense data capture
 - Real-time workflow execution
 - Instant email notifications
-- Interactive Power BI dashboard
-- Centralized financial monitoring
-- No manual intervention
+- Centralized expense tracking
+- Dashboard-based insights
+- Reduced manual intervention
 
 ---
 
-# 📊 Business Impact
+## 📊 Business Impact
 
-## ✅ Benefits Achieved
-
-- Reduced manual work
+- Reduced manual effort and errors
 - Faster expense processing
-- Improved operational efficiency
-- Better financial visibility
-- Real-time decision making
-- Reduced chances of errors
+- Improved transparency
+- Real-time financial insights
+- Better budgeting and control
 
 ---
 
-# 🚀 Future Enhancements
+## 🌍 Real-World Applications
 
-- Multi-level approval system
+- Corporate finance departments
+- Startups automating operations
+- Consulting firms
+- Shared service centers
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Create a Google Form for expense submission
+2. Link responses to Google Sheets
+3. Build n8n workflow using Google Sheets trigger
+4. Configure Gmail node for notifications
+5. Connect dataset to Power BI for dashboard creation
+
+---
+
+## 🚀 Future Enhancements
+
+- Approval workflow integration
 - AI-based fraud detection
-- Budget threshold alerts
-- Mobile application integration
-- Cloud database connectivity
-- Predictive expense analytics
+- Budget alerts & notifications
+- Role-based dashboards
+- ERP system integration
 
 ---
 
-# 👩‍💼 Author
+## 🏁 Conclusion
 
-## AARCHIE GUPTA
+This project demonstrates how automation and AI-driven workflows can transform traditional finance systems into **smart, real-time decision-making platforms**.
 
-MBA Finance | AI in Finance | Workflow Automation Enthusiast
+The integration of no-code tools improves operational efficiency, reduces manual workload, and enables better financial management.
+
+---
+
+## 👩‍💼 Author
+
+### **AARCHIE GUPTA**
+
+MBA Finance Student | AI in Finance Practitioner
 
 ---
