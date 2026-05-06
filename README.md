@@ -59,20 +59,16 @@ Google Form → Google Sheets → n8n Workflow → Email Notification → Power 
 ## 📁 Project Structure
 
 ```text
-Finance_project/
+ai-finance-expense-automation-system/
 │
-├── case study/
-├── n8n_workflow/
-├── ppt/
-├── screenshots/
-│   ├── google_form.png.png
-│   ├── google_sheet.png.png
-│   ├── n8n_architecture.png.png
-│   ├── email_output.png.png
-│   └── powerbi_dashboard.png.png
-│
-├── .gitignore
-└── README.md
+├── README.md
+├── google_form.png.png
+├── google_sheet.png.png
+├── n8n_architecture.png.png
+├── email_output.png.png
+├── powerbi_dashboard.png.png
+├── expense_automation_workflow.json
+└── expense_tracker_presentation.pptx
 ```
 
 ---
@@ -81,31 +77,31 @@ Finance_project/
 
 ## 1️⃣ Google Form Interface
 
-![Google Form](./screenshots/google_form.png.png)
+![Google Form](google_form.png.png)
 
 ---
 
 ## 2️⃣ Google Sheet Data Capture
 
-![Google Sheet](./screenshots/google_sheet.png.png)
+![Google Sheet](google_sheet.png.png)
 
 ---
 
 ## 3️⃣ n8n Workflow Architecture
 
-![n8n Workflow](./screenshots/n8n_architecture.png.png)
+![n8n Workflow](n8n_architecture.png.png)
 
 ---
 
 ## 4️⃣ Email Notification Output
 
-![Email Notification](./screenshots/email_output.png.png)
+![Email Notification](email_output.png.png)
 
 ---
 
 ## 5️⃣ Power BI Dashboard
 
-![Power BI Dashboard](./screenshots/powerbi_dashboard.png.png)
+![Power BI Dashboard](powerbi_dashboard.png.png)
 
 ---
 
